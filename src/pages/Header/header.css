@@ -1,0 +1,40 @@
+.notificaion{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid gray;
+  
+}
+
+.notificaion .notify{
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.profile_pic{
+
+    display: flex;
+    align-items: center;
+}
+.profile_pic span {
+    font-weight: 700;
+    font-size: 12px;
+
+}
+.profile_pic img{
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0px 10px;
+}

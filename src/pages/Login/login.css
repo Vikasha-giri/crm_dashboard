@@ -1,0 +1,67 @@
+.login_secion {
+    height: auto;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+
+ .login_secion_inner {
+  width: 100%;
+  max-width: 800px;
+  }
+
+  .login_secion_inner img{
+    height: 657px;
+  }
+
+  .login_secion_sec{
+    background-color: #6d38bc;
+    width: 100%;
+    max-width: 567px;
+    height: 657px;
+  }
+
+.login_secion_outer{
+  position: relative;
+}
+
+.loginform{
+  position: absolute;
+  top: 10%;
+  left: 43%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 41px 60px;
+}
+
+.loginform label{
+  font-weight: 500;
+}
+
+.loginform button{
+  background-color: #6d38bc;
+  color: #fff;
+  padding: 7px 50px;
+  margin-top: 30px;
+
+}
+.forgot{
+  text-align: end;
+  padding: 10px 0px;
+  font-weight: 600;
+}
+.forgot a{
+  text-decoration: none;
+  color: #6d38bc;
+
+}
+
+.tems_condition{
+  color: gray;
+  margin-top: 30px;
+}
+.tems_condition span{
+  color: #6d38bc;
+  font-size: 18px;
+}
