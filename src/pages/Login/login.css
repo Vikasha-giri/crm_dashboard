@@ -1,4 +1,20 @@
-.login_secion {
+
+
+
+@media (max-width: 575.98px) {  }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+@media (min-width: 1200px) { 
+  .login_secion {
     height: auto;
     margin: auto;
     flex-wrap: wrap;
@@ -7,8 +23,7 @@
   }
 
  .login_secion_inner {
-  width: 100%;
-  max-width: 800px;
+  width: 60%;
   }
 
   .login_secion_inner img{
@@ -17,8 +32,7 @@
 
   .login_secion_sec{
     background-color: #6d38bc;
-    width: 100%;
-    max-width: 567px;
+    width: 40%;
     height: 657px;
   }
 
@@ -65,3 +79,4 @@
   color: #6d38bc;
   font-size: 18px;
 }
+ }
