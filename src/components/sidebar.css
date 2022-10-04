@@ -106,13 +106,13 @@ main {
   margin-top: 5px;
 }
 
-.active {
+.sidebar .active {
   background-image: linear-gradient(to right, #6D38BC, #8a60c9);
   color: #fff !important;
   display: flex;
 
 }
-.active::after {
+.sidebar .active::after {
     -webkit-font-smoothing: antialiased;
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
